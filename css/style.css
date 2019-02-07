@@ -65,9 +65,8 @@ body {
 
 }
 #gtco-main-nav .navbar-brand {
-  font-size: 3.6px;
+  font-size: 36px;
   font-family: "OpenSans-Bold";
-
   background: -webkit-linear-gradient(left, #000000, #000000);
   background: -ms-linear-gradient(left, #000000, #000000);
   background: -moz-linear-gradient(left, #000000, #000000);
@@ -230,7 +229,7 @@ font-family: 'Comfortaa',Bold;
   font-family: "OpenSans-Semibold";
   color: #fff;
   border-radius: 50px;
-  padding: 5px 10px;
+  padding: 5px 30px;
   display: inline-block;
   text-transform: uppercase;
   padding-right: 5px;
@@ -262,7 +261,7 @@ font-family: 'Comfortaa',Bold;
 }
 
 .gtco-banner-area {
-  margin-top: 0px;
+  margin-top: 1px;
   min-height: 500px;
 }
 .gtco-banner-area h1 {
@@ -822,9 +821,11 @@ font-family: 'Comfortaa',Bold;
   }
 }
 .logo img{
-width: 20%;
-height: 30%;
-  margin:0px 120px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+
 }
   .ec-cart-widget{
     margin:0px 120px;
