@@ -61,7 +61,7 @@ body {
 
 }
 .navbar-toggler{
-    margin:  0px 55px;
+    margin:  0px 25px;
 
 }
 #gtco-main-nav .navbar-brand {
@@ -824,11 +824,13 @@ font-family: 'Comfortaa',Bold;
   float: left;
   width: 100px;
   height: 100px;
-  margin-left: 25px;
+  margin-left: 5px;
 
 }
+
   .ec-cart-widget{
-    margin:0px 120px;
+    margin:0px 60px;
+    float:right;
    /* margin-left: 15em;
 
       margin-bottom: 78em; */
