@@ -41,7 +41,7 @@
 p {
   font-family: "OpenSans-Regular";
   color: #666666;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
@@ -81,7 +81,7 @@ body {
 #gtco-main-nav .bar1, #gtco-main-nav .bar2, #gtco-main-nav .bar3 {
   width: 25px;
   height: 2px;
-  background-color: #fff;
+  background-color: #000000;
   margin: 5px 0;
   transition: 0.4s;
   display: block;
@@ -101,7 +101,7 @@ body {
 #gtco-main-nav .navbar-nav li a {
 font-family: 'Comfortaa',Bold;
   font-size: 28px;
-  color: darkgreen;
+  color: #000000;
   padding: 5px 15px !important;
     margin-right: 0px 155px;
   /* text-transform: uppercase; */
@@ -116,8 +116,8 @@ font-family: 'Comfortaa',Bold;
 
 }
 #gtco-main-nav form a.btn-info {
-  background: #d4fc79;
-  border-color: #d4fc79;
+  background: #000000;
+  border-color: #000000;
 }
 #gtco-main-nav form a.btn-outline-dark {
   border-color: #fff;
@@ -125,8 +125,8 @@ font-family: 'Comfortaa',Bold;
 }
 @media (max-width: 991px) {
   #gtco-main-nav form a.btn-outline-dark {
-    border-color: #96e6a1;
-    color: #96e6a1;
+    border-color: #000000;
+    color: #000000;
   }
 }
 
@@ -260,6 +260,73 @@ font-family: 'Comfortaa',Bold;
 
 }
 
+
+.text {
+   /* position: relative; */
+  /* width: 450px; */
+  /* float:left */
+  /* margin-bottom: 20px;  */
+  height: 100px;
+  top:-60px;
+  left:100px;
+  font-family:"capriola";
+  /* margin-top: -20px; */
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.08s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.08s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: 	#800080;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: 	#006400;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
 .gtco-banner-area {
   margin-top: 1px;
   min-height: 500px;
@@ -281,6 +348,11 @@ font-family: 'Comfortaa',Bold;
 
   }
 }
+
+.gtco-banner-area span{
+margin-bottom:100px;
+}
+
 .gtco-banner-area p {
   max-width: 450px;
   margin: 20px 0;
@@ -294,7 +366,7 @@ font-family: 'Comfortaa',Bold;
 .gtco-banner-area .col-md-6 .card .card-img-top {
   max-width: 430px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 70px;
   margin-right: 0;
 
 }
