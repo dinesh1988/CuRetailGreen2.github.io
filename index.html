@@ -396,6 +396,11 @@
             <div class="col"><img src="images/logo3.png" class="img-fluid" alt=""></div>
             <div class="col"><img src="images/logo4.png" class="img-fluid" alt=""></div>
             <div class="col"><img src="images/logo5.png" class="img-fluid" alt=""></div>
+            <div class="col"><img src="images/logo1.png" class="img-fluid" alt=""></div>
+            <div class="col"><img src="images/logo2.png" class="img-fluid" alt=""></div>
+            <div class="col"><img src="images/logo3.png" class="img-fluid" alt=""></div>
+            <div class="col"><img src="images/logo4.png" class="img-fluid" alt=""></div>
+            <div class="col"><img src="images/logo5.png" class="img-fluid" alt=""></div>
         </div>
     </div>
 </div>
@@ -524,10 +529,12 @@
 var options = {
 facebook: "1029463273886151", // Facebook page ID
 whatsapp: "+919789996168", // WhatsApp number
+email: "customercare@curryupfood.com", // Email
+call: "+919789996168", // Call phone number
 call_to_action: "Vannakkam!", // Call to action
 button_color: "#fda085", // Color of button
 position: "right", // Position may be 'right' or 'left'
-order: "facebook,whatsapp", // Order of buttons
+order: "facebook,whatsapp,email,call", // Order of buttons
 };
 var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
@@ -536,6 +543,23 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 })();
 </script>
 <!-- /WhatsHelp.io widget -->
-
+<!-- WhatsHelp.io widget -->
+<!-- <script type="text/javascript">
+    (function () {
+        var options = {
+            email: "customercare@curryupfood.com", // Email
+            call: "+919789996168", // Call phone number
+            call_to_action: "Vannakkam Chennai", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "email,call", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script> -->
+<!-- /WhatsHelp.io widget -->
 </body>
 </html>
