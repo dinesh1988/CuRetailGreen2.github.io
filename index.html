@@ -11,6 +11,7 @@
 
     <!-- awesone fonts css-->
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- owl carousel css-->
     <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
     <!-- Bootstrap CSS -->
@@ -20,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     <style>
 @import url('https://fonts.googleapis.com/css?family=Play');
 </style>
@@ -86,8 +88,6 @@
         </div>
     </div>
 </nav>
-
-
 
 <div class="container-fluid gtco-banner-area">
     <div class="container">
@@ -221,6 +221,9 @@
         </div>
     </div>
 </div>
+
+
+
 <!-- <div class="container-fluid gtco-numbers-block">
     <div class="container">
         <svg width="100%" viewBox="0 0 1600 400">
@@ -537,11 +540,11 @@ lots of love<br><br><br><br><br>
                             <li class="nav-item"><a class="
 
                               -link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#my-store-13466392">Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Nutrition</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">FAQ's</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Sign-in to your storer</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Become a Curryup Partner</a></li>
                         </ul>
@@ -587,9 +590,23 @@ lots of love<br><br><br><br><br>
 <script src="owl-carousel/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
 
-<!-- scroll up arrow -->
+<div class="feedback" style="display: block;">
+<a href="#my-store-13466392">
+  <i class="material-icons" style="color:white;">
+store
+</i>
+</a></div>
 
-<div class="scroll-arrow" style="display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+<!-- scroll up arrow -->
+<!-- <div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div> -->
+<div class="scroll-arrow" style="display: block;">
+<a href="#">
+  <i class="material-icons"style="color:white;">
+keyboard_arrow_up
+</i>
+</a></div>
 
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
@@ -601,7 +618,7 @@ email: "customercare@curryupfood.com", // Email
 call: "+919789996168", // Call phone number
 call_to_action: "Vannakkam!", // Call to action
 button_color: "#000000", // Color of button
-position: "right", // Position may be 'right' or 'left'
+position: "left", // Position may be 'right' or 'left'
 order: "email,call,facebook,whatsapp", // Order of buttons
 };
 var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
